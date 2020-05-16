@@ -1,0 +1,105 @@
+body{
+    font-family:Arial;
+	margin: 1px;
+	padding: 0;
+	background: #F5F5DC;
+}
+
+body:before{	
+}
+h1{
+    text-align: center;
+}
+input{
+    background: #F5F5DC;
+}
+.List
+{
+   /* display: flex;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-left: 20%;
+    width: auto;
+    height: 1%;*/
+    display: grid;
+    flex-wrap: wrap;
+    margin: 5%;
+    margin-left: auto;
+    width: auto;
+    height: auto;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.element{
+    margin: 10%;
+    align-items: center ;
+}
+.AllArti{
+    margin-left: 15%;
+}
+.font{
+	content: '';
+	position: fixed;
+	width: 100vw;
+	height: 100vh;
+	background-image: url("4.jpg");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+.test10
+{
+    margin-bottom: 45px;
+}
+a
+{
+	color: black;
+	font-size: 21px;
+	font-weight: bold;
+	text-decoration: none;
+}
+article{
+    display: contents;
+    margin-right: 10%;
+    margin-top: 2%;
+}
+.Beau
+{
+}
+.navbar-inverse .navbar-nav>li>a {
+    
+   	color: black;
+}
+.navbar-inverse .navbar-brand {
+    color: black;
+    font-weight: bold;
+}
+.Bani
+{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap; 
+    text-align: justify;
+    width: auto;
+    height: 0;
+}
+img
+{
+    margin-left: 15%;
+	width: 100px;
+	height: 100px;   
+}
+#banniere
+{
+    background: #E9967A;
+    height: auto;
+    width: auto;
+    margin: 0;
+    color: black;
+}
+.ctn
+{
+    display: table-cell;
+    vertical-align: middle
+}

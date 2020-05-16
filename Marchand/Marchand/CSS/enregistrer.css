@@ -1,0 +1,63 @@
+.inscription
+{
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	height: 500px;
+	padding: 80px 40px;
+	box-sizing: border-box;
+}
+.inscription h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+}
+.inscription p
+{
+	margin: 0;
+	padding: 0;
+	font-weight: bold;
+	color: ##8BC34A;
+}
+.inscription input
+{
+	width: 100%;
+	margin-bottom: 20px;
+}
+.inscription input[type="text"],
+.inscription input[type="password"]
+{
+	border: none;
+	border-bottom: 1px solid #000;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color: #000;
+	font-size: 16px;
+}
+::placeholder
+{
+	color: #000;
+}
+.inscription input[type="submit"] {
+	height: 30px;
+	color: #fff;
+	font-size: 15px;
+	background: red;
+	cursor: pointer;
+	border-radius: 25px;
+	border: none;
+	outline: none;
+	margin-top: 15%;
+}
+.inscription a
+{
+	color: #000;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
