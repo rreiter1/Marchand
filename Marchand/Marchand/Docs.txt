@@ -1,0 +1,6 @@
+Si vous voulez vous connecté en ADMIN voici les 2 solution
+
+1) Utilisier un compte existant 
+    admin
+    yui123
+2) Cree un compte et allez dans la base et luis metre la permission 1
